@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1466562265 source:d:\codeblocks\design_patterns\factory_pattern\main.cpp
+	<iostream>
+	"Factory.h"
+	<memory>
+
+1466562632 d:\codeblocks\design_patterns\factory_pattern\factory.h
+	<memory>
+

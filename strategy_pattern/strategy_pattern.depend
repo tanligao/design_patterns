@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1466587405 source:d:\codeblocks\design_patterns\strategy_pattern\main.cpp
+	<iostream>
+	"Strategy.h"
+
+1466586235 source:d:\codeblocks\design_patterns\strategy_pattern\src\strategy.cpp
+	"Strategy.h"
+
+1466587271 d:\codeblocks\design_patterns\strategy_pattern\include\strategy.h
+	<iostream>
+	<memory>
+

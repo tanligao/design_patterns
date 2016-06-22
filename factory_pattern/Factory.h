@@ -4,6 +4,7 @@
 
 //test the abstract factory pattern
 //there are two core product with multi number core
+//use the smart pointer
 
 class Single
 {
@@ -13,6 +14,7 @@ public:
     virtual void print() = 0;
 };
 
+//single A
 class SingleA : public Single
 {
 public:
@@ -24,6 +26,7 @@ public:
     }
 };
 
+//single B
 class SingleB : public Single
 {
 public:
@@ -43,6 +46,7 @@ public:
     virtual void print() = 0;
 };
 
+//multi A
 class MultiA : public Multi
 {
 public:
@@ -54,6 +58,7 @@ public:
     }
 };
 
+//multi B
 class MultiB : public Multi
 {
 public:
@@ -74,6 +79,7 @@ public:
     virtual std::shared_ptr<Multi> CreateMulti() = 0;
 };
 
+//factory A
 class ProductFactoryA : public ProductFactory
 {
 public:
@@ -89,6 +95,7 @@ public:
     }
 };
 
+//factory B
 class ProductFactoryB : public ProductFactory
 {
 public:

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1466670559 source:d:\codeblocks\design_patterns\adapter_pattern\main.cpp
+	<iostream>
+	"Adapter.h"
+
+1466670674 d:\codeblocks\design_patterns\adapter_pattern\adapter.h
+	<iostream>
+

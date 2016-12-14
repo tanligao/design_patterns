@@ -1,0 +1,1 @@
+#include "Singleton2.h"

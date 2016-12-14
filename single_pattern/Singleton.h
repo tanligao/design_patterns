@@ -15,7 +15,6 @@ class Singleton
         {
             if(!instance)
             {
-                std::mutex mtx;
                 mtx.lock();
                 if(!instance)
                 {
@@ -44,6 +43,7 @@ class Singleton
     private:
         Singleton();
         static Singleton *instance;
+	static std::mutex mtx;
 };
 
 #endif // SINGLETON_H

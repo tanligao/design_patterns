@@ -3,10 +3,13 @@
 
 #include <iostream>
 
-//test the adapter pattern
+// 适配器模式的实现：将一个类的接口转换成客户希望的
+// 另外一个接口。适配器模式使得原本由于接口不兼容而
+// 不能一起工作的那些类可以一起工作
 
-//like the STL stack and queue
-//use a deque to control
+// 例子：STL中的stack和queue适配器就是对deque序列容器
+// 的适配，使deque的使用符合stack和queue的特点，stack特
+// 点是：后进先出，queue特点是：先进先出
 
 class MyDeque
 {
